@@ -1621,7 +1621,6 @@ input, select, textarea {
 	}
 
 	#header {
-		background: rgba(39, 40, 51, 0.965);
 		box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.25);
 		cursor: default;
 		height: 3.5em;
@@ -1706,7 +1705,7 @@ input, select, textarea {
 	body.landing #header {
 		background-color:transparent;
         box-shadow: none;
-        position: fixed;
+        position: absolute;
 	}
 
 /* Banner */
@@ -2386,11 +2385,15 @@ li{
 @font-face {
 	font-family: Font;
 	src: url(../fonts/LEMONMILK-Bold.otf);
-  }
-  @font-face {
-	font-family: Font1;
+}
+@font-face {	
+	font-family: Font1;	
 	src: url(../fonts/LEMONMILK-Medium.otf);
-  }
+}
+@font-face {
+	font-family: Font2;
+	src: url(../fonts/Blanka-Regular.otf);
+}
   
 #logo{
 	width: 15em;
@@ -2493,7 +2496,7 @@ li{
 	
 }*/
 
-#two img{
+/* #two img{
     position: absolute;
    
 }
@@ -2501,7 +2504,7 @@ li{
     background-color: skyblue;
     transition: transform 0.3s ease; 
        
-}
+} */
 .underImages{
     right: 1%;
     top:140%;
@@ -2535,4 +2538,71 @@ li{
 
 #one{
 	background-image: url("../images/Drone2.jpg");
+}
+
+#menu_sky{
+	font-family: Font2;
+}
+
+#img1{
+	padding: 2em;
+	width: 50%;
+	height: 50%;
+	margin: 0 auto;
+
+	float: right;
+	z-index: 100000000;
+}
+#img2{
+	padding: 2em;
+	width: 50%;
+	height: 40%;
+	margin: 0 auto;
+
+	margin-left: 4em;
+	float: left;
+	z-index: 100000000;
+}
+#img3{
+	padding: 2em;
+	width: 50%;
+	height: 50%;
+	margin: 0 auto;
+
+	float: right;
+	z-index: 100000000;
+}
+
+section #one{
+		
+	content: '';
+	display: block;
+	height: 100%;
+	left: 0;
+	top: 0;
+	width: 100%;
+	background-color: #2e2f3a;
+}
+
+section #two{
+	background-color: #2e2f3a;
+	content: '';
+	display: block;
+	height: 100%;
+	left: 0;
+	top: 0;
+	width: 100%;
+}
+section #three{
+	background-color: #2e2f3a;
+	content: '';
+	display: block;
+	height: 100%;
+	left: 0;
+	top: 0;
+	width: 100%;
+}
+section#four{
+	background-color: #2e2f3a;
+	
 }

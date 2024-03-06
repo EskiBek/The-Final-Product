@@ -12,7 +12,7 @@
 		<div id="page-wrapper">
 			<header id="header">
 				<h1 id="logo">
-					<a href="/index">SkyNova</a>
+					<a href="/index" id="menu_sky">SkyNova</a>
 				</h1>
 				<nav id="nav">
 					<ul>
@@ -21,7 +21,8 @@
 							<ul>
 								<li><a href="/benefits">Benefits</a></li>	
 								<li><a href="/hiw">Script</a></li>
-								<li><a href="/software">Software</a></li>								
+								<li><a href="/software">Software</a></li>	
+								<li><a href="/models">Models</a></li>								
 							</ul>
 						</li>
 						
@@ -57,38 +58,57 @@
 				</header>
 			</div>
 		</section>
-		
-		<section id="one" class="wrapper style2 special fade">
-			<div class="container">
+
+		<section id="one" class="spotlight style3 left">
+			<div class="content">
 				<div class="col-4 col-12-medium">
-					<p>SSSSS</p>
+					<h2>Model 1</h2>
+					<p>
+						The model shows a complete sketch of the hangar with precise details such as the location of the maintenance entrance and the solar panels on top to provide power.</p>
+						
+					<a href="/models"><button id="modelBut">More Informations</button></a>
+				</div>
+				<div>
+					<img id="img1" src="{{ url_for('static', filename='images/Models/cad_drawing_1-copy.png') }}" alt="Models" />
+				</div>
+			</div>
+		</section>
+		<!-- two -->
+		<section id="two" class="spotlight style2 right">
+			<div class="content">
+				<div class="col-4 col-12-medium">
+					<h2>Model 2</h2>
+					<p>This model displays the frontal view along with the battery components within the hangar</p> 
+					<a href="/models"><button id="modelBut">More Informations</button></a>
+				</div>
+				<div>
+					<img id="img2" src="{{ url_for('static',filename='images/Models/battery_side_and_front.png') }}" alt="Models1" />
 				</div>
 			</div>
 		</section>
 
-		<section id="two" class="wrapper style2 special fade slideImage">
-			<div class="container">
-				<div class="col-4 col-12-medium">
-					<p>SSSS</p>
-				</div>
+		<section id="three" class="spotlight style3 left">
+			<div class="content">
+					<div class="col-4 col-12-medium">
+
+						<h2>Model 3</h2>
+						<p>From this perspective it accurately depicts the corresponding side of the hangar structure.  </p>
+
+						<a href="/models"><button id="modelBut">More Informations</button></a>
+					</div>
+					<div>
+						<img id="img3" src="{{ url_for('static', filename='images/Models/battery_side.png') }}" alt="Models2" />
+					</div>
 			</div>
 		</section>
-
-		<section id="three" class="wrapper style2 special fade">
-			<div class="container">
-				<div class="col-4 col-12-medium">
-					<p>SSSS</p>
-				</div>
-			</div>
-		</section>
-
+<!-- 
 		<section id="four" class="wrapper style2 special fade">
 			<div class="container">
 				<div class="col-4 col-12-medium">
 					<p>SSSS</p>
 				</div>
 			</div>
-		</section>
+		</section> -->
 
 			<!-- Footer -->
 		<footer id="footer">

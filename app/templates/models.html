@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title> SkyNova Project </title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<link rel="icon" href="images/DroneIcon.png">			
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/mainM.css') }}" />
+		<noscript><link rel="stylesheet" href="{{ url_for('static', filename='css/noscript.css') }}" /></noscript>
+	</head>
+	<body class="is-preload landing">
+		<div id="page-wrapper">  
+            <header id="header">
+				<h1 id="logo">
+					<a href="/index">SkyNova</a>
+				</h1>
+				<nav id="nav">
+					<ul>
+						<li><a href="/contacts">Contacts</a></li>						
+						<li class="hov"><a>Learn more</a>
+							<ul>
+								<li><a href="/benefits">Benefits</a></li>	
+								<li><a href="/hiw">Script</a></li>
+								<li><a href="/software">Software</a></li>							
+							</ul>
+						</li>
+						
+						<li class="hov"><a>Language</a>
+							<ul>
+								<li><a href="/indexPL"><img src="{{ url_for('static', filename='images/country_flag/poland-26125_640.png') }}" class="photos" alt="flag"> Polski</a></li>
+								<li><a href="/indexES"><img src="{{ url_for('static', filename='images/country_flag/spain-28530_640.png') }}" class="photos"alt="flag2"> Español</a></li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+			</header>
+				<section id="banner">
+					<div class="content">
+						<header>
+							<h2>Models</h2>
+						</header>
+					</div>
+				</section>
+         <!-- One -->
+				<section id="one" class="spotlight style3 left">
+			
+
+					<div class="content">
+					
+							<header>
+								<h2>Model 1</h2>	</header>
+								<p>
+									The model shows a complete sketch of the hangar with precise details such as the location of the maintenance entrance and the solar panels on top to provide power. The hangar, although relatively small, has been optimised to store several drones. In addition, the model indicates the location of the drones' exit from inside the hangar, an important functional element of the facility.</p>
+								
+					</div>
+					<div>
+						<img id="img1" src="{{ url_for('static', filename='images/Models/cad_drawing_1-copy.png') }}" alt="Models" />
+					</div>
+			
+				</section>
+				<!-- two -->
+				<section id="two" class="spotlight style2 right">
+					
+					<div class="content">
+						<header>
+							<div class="col-4 col-12-medium">
+								<h2>Model 2</h2></header>
+								<p>This model displays the frontal view along with the battery components within the hangar. Through this representation, one can envisage the potential visual appearance of the structure. </p> 
+							</div>
+							<div>
+								<img id="img2" src="{{ url_for('static', filename='images/Models/battery_side_and_front.png') }}" alt="Models1" />
+								
+							</div>
+				
+				</section>
+
+				<section id="three" class="spotlight style3 left">
+					
+					<div class="content">
+						<header>
+							<div class="col-4 col-12-medium">
+								<h2>Model 3</h2></header>
+								<p>From this perspective, we obtain a precise view of the battery side. Additionally, it accurately depicts the corresponding side of the hangar structure.  </p>
+							</div>
+							<div>
+								<img id="img3" src="{{ url_for('static', filename='images/Models/battery_side.png') }}" alt="Models2" />
+							</div>
+				
+				</section>
+
+			
+				<footer id="footer">
+					<ul class="copyright">
+						<li>&copy; SkyNova. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</footer>
+		
+		</div>
+
+		<!-- Scripts -->
+		<script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/jquery.scrolly.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/jquery.dropotron.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/jquery.scrollex.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/browser.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/breakpoints.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/util.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+
+	</body>
+</html>
