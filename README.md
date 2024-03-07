@@ -1,1 +1,1 @@
-Next Version of The SkyNova
+The LAST Version of Our Internship Project - SkyNova
