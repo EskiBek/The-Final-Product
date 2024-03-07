@@ -13,24 +13,22 @@
 			<header id="header">
 				<h1 id="logo"><a href="/indexES">SkyNova</a></h1>
 				<nav id="nav">
-					<ul>						
-						<li class="hov"><a>Cómo Funciona</a>
+					<ul>
+						<li><a href="/contactsES">Contacto</a></li>						
+						<li class="hov"><a>Más información</a>
 							<ul>
-								<li><a href="/informationES">Informaciones</a></li>
-								<li><a href="/hiwES">Ejecutando el script</a></li>
-								<li><a href="/modelsES">Modelos</a></li>
-							</ul>
-						<li class="hov"><a>Saber más</a>
-							<ul>
-								<li><a href="/benefitsES">Prestaciones</a></li>
-								<li><a href="/contactsES">Contactos</a></li>
+								<li><a href="/benefitsES">Beneficios</a></li>	
+								<li><a href="/hiwES">Script</a></li>
+								<li><a href="/softwareES">Software</a></li>	
+								<li><a href="/modelsES">Modelos</a></li>								
 							</ul>
 						</li>
+						
 						<li class="hov"><a>Idioma</a>
 							<ul>
-								<li><a href="/softwarePL"><img src="{{ url_for('static', filename='images/country_flag/poland-26125_640.png') }}" class="photos" alt="flag"> Polaco</a></li>
-								<li><a href="/software"><img src="{{ url_for('static', filename='images/country_flag/union-jack-1027898_640.png') }}" class="photos"alt="flag1"> Inglés</a></li>
-								
+								<li><a href="/software"><img src="{{ url_for('static', filename='images/country_flag/union-jack-1027898_640.png') }}" class="photos" alt="flag"> English</a></li>
+								<li><a href="/softwarePL"><img src="{{ url_for('static', filename='images/country_flag/poland-26125_640.png') }}" class="photos" alt="flag"> Polski</a></li>
+								<li><a href="/softwareES"><img src="{{ url_for('static', filename='images/country_flag/spain-28530_640.png') }}" class="photos"alt="flag2"> Español</a></li>
 							</ul>
 						</li>
 					</ul>
@@ -80,8 +78,8 @@
 							<div class="soft">
 								
 								<div class="col-4 col-12-medium">
-									<h2>Seleccionar</h2>
-									<p>Un elemento select está disponible en la interfaz del cliente, que le permite seleccionar comandos pasados desde la base de datos para encapsular y aumentar la seguridad. Después de la autenticación, el usuario pasa comandos al cliente. Para que los comandos se envíen desde el cliente al servidor, es necesario iniciar sesión introduciendo un nombre de usuario y una contraseña. El servidor procesa estos comandos utilizando datos de las lecturas de los sensores y dispositivos de medición conectados. Entonces los resultados se envían de vuelta a server. py, y desde allí a client. py. Como resultado, client. py envía los resultados finales a la página. Esta secuencia de operaciones se basa en Socket. Tecnología IO, que permite la comunicación en tiempo real entre el cliente y el servidor. Además, hay un servidor paralelo a nivel de cliente.</p>
+									<h2>Interfaz de cliente</h2>
+									<p>En la interfaz del cliente, los usuarios pueden seleccionar comandos de la base de datos. Tras autenticarse, pasan los comandos al cliente. Para enviar comandos del cliente al servidor, los usuarios se conectan con un nombre de usuario y una contraseña. El servidor procesa estas órdenes utilizando los datos de los sensores y dispositivos de medición conectados. Los resultados se devuelven al servidor y luego al cliente. Este flujo de comunicación se basa en la tecnología Socket.IO para la interacción en tiempo real. Además, existe un servidor paralelo a nivel de cliente.</p>
 								</div>
 								
 							</div>

@@ -5,7 +5,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 		<link rel="icon" href="images/DroneIcon.png">			
-		<link rel="stylesheet" href="assets/css/main1.css" />
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/mainM.css') }}" />
 		<noscript><link rel="stylesheet" href="{{ url_for('static', filename='css/noscript.css') }}" /></noscript>
 	</head>
 	<body class="is-preload landing">
@@ -14,21 +14,23 @@
 				<h1 id="logo"><a href="/indexPL">SkyNova</a></h1>
 				<nav id="nav">
 					<ul>
-						<li class="hov"><a href="/contactsPL">Kontakty</a>
-						</li>
+						<li><a href="/contactsPL">Kontakt</a></li>						
 						<li class="hov"><a>Dowiedz się więcej</a>
 							<ul>
-								<li><a href="/benefitsPL">Korzyści</a></li>
-								<li><a href="/hiwPL">Jak to działa?</a></li>
-								<li><a href="/softwarePL">Oprogramowanie</a></li>
+								<li><a href="/benefitsPL">Korzyści</a></li>	
+								<li><a href="/hiwPL">Skrypt</a></li>
+								<li><a href="/softwarePL">Oprogramowanie</a></li>	
+								<li><a href="/modelsPL">Modele</a></li>								
 							</ul>
 						</li>
+						
 						<li class="hov"><a>Język</a>
 							<ul>
-								<li><a href="/index"><img src="{{ url_for('static', filename='images/country_flag/union-jack-1027898_640.png') }}" class="photos"alt="flag1"> Angielski</a></li>
-								<li><a href="/indexES"><img src="{{ url_for('static', filename='images/country_flag/spain-28530_640.png') }}" class="photos"alt="flag2"> Hiszpański</a></li>
+								<li><a href="/models"><img src="{{ url_for('static', filename='images/country_flag/union-jack-1027898_640.png') }}" class="photos" alt="flag"> English</a></li>
+								<li><a href="/modelsPL"><img src="{{ url_for('static', filename='images/country_flag/poland-26125_640.png') }}" class="photos" alt="flag"> Polski</a></li>
+								<li><a href="/modelsES"><img src="{{ url_for('static', filename='images/country_flag/spain-28530_640.png') }}" class="photos"alt="flag2"> Español</a></li>
 							</ul>
-						  </li>
+						</li>
 					</ul>
 				</nav>
 			</header>

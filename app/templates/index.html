@@ -64,15 +64,16 @@
 				<div class="col-4 col-12-medium">
 					<h2>Model 1</h2>
 					<p>
-						The model shows a complete sketch of the hangar with precise details such as the location of the maintenance entrance and the solar panels on top to provide power.</p>
+						The model shows a complete sketch of the hangar.</p>
 						
 					<a href="/models"><button id="modelBut">More Informations</button></a>
 				</div>
-				<div>
-					<img id="img1" src="{{ url_for('static', filename='images/Models/cad_drawing_1-copy.png') }}" alt="Models" />
-				</div>
+				
 			</div>
+			<img id="img1" src="{{ url_for('static', filename='images/model.png') }}" alt="Models" />
 		</section>
+		
+		
 		<!-- two -->
 		<section id="two" class="spotlight style2 right">
 			<div class="content">
@@ -81,13 +82,11 @@
 					<p>This model displays the frontal view along with the battery components within the hangar</p> 
 					<a href="/models"><button id="modelBut">More Informations</button></a>
 				</div>
-				<div>
-					<img id="img2" src="{{ url_for('static',filename='images/Models/battery_side_and_front.png') }}" alt="Models1" />
-				</div>
 			</div>
+			<img id="img2" src="{{ url_for('static',filename='images/model1.png') }}" alt="Models1" />
 		</section>
 
-		<section id="three" class="spotlight style3 left">
+		<section id="three" class="spotlight style1 left">
 			<div class="content">
 					<div class="col-4 col-12-medium">
 
@@ -96,10 +95,8 @@
 
 						<a href="/models"><button id="modelBut">More Informations</button></a>
 					</div>
-					<div>
-						<img id="img3" src="{{ url_for('static', filename='images/Models/battery_side.png') }}" alt="Models2" />
-					</div>
 			</div>
+			<img id="img3" src="{{ url_for('static', filename='images/Models/model2.png') }}" alt="Models2" />
 		</section>
 <!-- 
 		<section id="four" class="wrapper style2 special fade">
@@ -111,11 +108,13 @@
 		</section> -->
 
 			<!-- Footer -->
-		<footer id="footer">
-			<ul class="copyright">
-				<li>&copy; SkyNova. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-			</ul>
-		</footer>
+			<footer id="footer">
+                <ul class="copyright">  
+                    <li>&copy; <a href="/hiw">How it works?</a></li><li><a href="/software">Software</a></li><li><a href="/models">Models</a></li><br><br>
+                    <li>&copy; <a href="/benefits">Benefits</a></li><li><a href="/contacts">Contacts</a></li><br><br>
+                    <li>&copy; SkyNova. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                </ul>
+            </footer>
 			
 		
 
